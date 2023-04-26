@@ -1,8 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
 }
 
 h1{
@@ -12,224 +12,215 @@ color: orange;
 
 h2{
 color: orange;
-    
+  
 }
 
 h3{
 color: orange;
-        
- }
+      
+}
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*body*/
 body{
-  margin: auto;
-  background-color: #2e2e31;
-  font-family: sans-serif;
-  color: #ffffff;
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 60px;
+margin: auto;
+background-image: url(https://media.istockphoto.com/id/665939740/es/foto/bicicleta-de-bmx-en-fondo-negro-con-humo.jpg?s=170667a&w=0&k=20&c=1XN0saMw32qXE5mkvcudA0uVTyFdFy2aUpxwGUC6xS8=);
+font-family: sans-serif;
+color: #ffffff;
+position: relative;
+min-height: 100vh;
+padding-bottom: 60px;
 }
 
 /*MAIN */
 
 .hero {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px;
 }
 
 .hero p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 img {
-    width: 100%;
-    border-radius: 150%;
-    border: 3px rgb(255, 255, 255) solid;
-    justify-content: center;
+  width: 100%;
+  border-radius: 150%;
+  border: 3px rgb(255, 255, 255) solid;
+  justify-content: center;
 }
 
 .caja {
-    width: 100%;
-    min-height: 400px;
-    max-height: 100%;
+  width: 100%;
+  min-height: 400px;
+  max-height: 100%;
 }
 
 /* MAIN CONTACT */
 
-
-
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    background-color: #2e2e31;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #2e2e31;
+  padding: 10px;
 
 }
-
-
 
 /* MAIN GALERIA */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
 
 .grilla {
-    background-color: #2e2e31;
-    padding: 10px;
-     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto;
+  background-color: #ffffff;
+  padding: 10px;
+   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
 
-}
-
-
-
-/* CARDS */
-
-.cards {
-    display: block;
-    padding: 20px ;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 50%;
-    gap: 20px;
-
-}
-.card img {
-    width: 75%;
-    height: 30%;
-    object-fit: cover;
 }
 
 /*FOOTER*/
 
 footer {
-    background-color:  #0bb619;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
+  background-color:  #080050b7;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
 }
 
 footer p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /*HEADER*/
 /*PROPIEDADES DE FONDO*/
 
 .nav{
-    background-color: #0bb619;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    
-    
-    
+  background-color: #080050b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  
+  
+  
 }
 
 .nav-brand a{
-    color: rgb(255, 255, 255);
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
 }
 
 .nav-list{
-    display: flex;
-    gap: 15px;
-    font-size: 24px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-link{
-    color: white;
-    
+  color: white;
+  
+}
+
+/* GALERIA */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  margin-bottom: 20px;
+}
+
+.image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #470097;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.image:hover .overlay {
+  opacity: 1;
 }
 
 /* MEDIAS */
 
 .media {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color:  #0bb619;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:  #0bb619;
+  padding: 10px;
 }
 
-/* GALERIA */
-.grilla {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-        'area6 area1 area1 area7'
-        'area6 area2 area2 area7'
-        'area4 area4 area5 area5'
-        '.. area3 area3 area3';
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 992px) {
+ 
 }
 
-
-/*mobile*/
-@media screen and (min-width: 300px) {
-
-    .media {
-        background-color: #2e2e31;
-    }
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 991px) and (min-width: 768px) {
 
 }
 
-/* MEDIA DE TABLET */
-@media screen and (min-width: 600px) {
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
 
-    .nav-list {
-        flex-direction: row;
-    }
-
-    .media {
-        background-color: #2e2e31;
-        flex-direction: row;
-    }
-
-
-    /* MEDIA DE NOTEBOOK/DESKTOP */
-@media screen and (min-width: 768px) {
-
-    .media {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        gap: 20px;
-        padding: 30px;
-    }
 }
 
-
-
-
-/*about*/
